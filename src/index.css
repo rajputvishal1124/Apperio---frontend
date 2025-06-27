@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.specialist::before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0.8;
+  background-color: rgb(18 74 148);
+}
+
+.specialist {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-size: cover;
+}
+
+.header-book-appointment-input {
+  @apply w-11/12 px-6 text-base outline-none focus:border h-14 rounded-3xl bg-[#f5f7fa] text-[#788094] pr-11 transition-all duration-300 ease-linear;
+}
+
+.active > p {
+  color: #5156be !important;
+}
+.active > svg {
+  color: #5156be !important;
+  stroke: #5156be !important ;
+  fill: #efe1fd !important ;
+}
+.active1 > p {
+  color: #5156be !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.secondary-button {
+  background: linear-gradient(180deg, #04ce78 37.5%, #ddfff1 100%);
+}
